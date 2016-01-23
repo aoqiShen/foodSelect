@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FoodTableViewController">
+            <connections>
+                <outlet property="addBtn" destination="DAM-s5-8jR" id="qS2-K3-7tG"/>
+                <outlet property="foodTableView" destination="ERX-4m-ESa" id="gxA-Tc-nQd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="FoodTabelViewController">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ERX-4m-ESa">
+                    <rect key="frame" x="0.0" y="101" width="320" height="467"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAM-s5-8jR">
+                    <rect key="frame" x="243" y="33" width="60" height="60"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="IuB-S5-JyF"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="Yd4-cv-Irv"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="aeE-aZ-Kn7"/>
+                        <constraint firstAttribute="height" constant="60" id="q1p-8X-KF1"/>
+                    </constraints>
+                    <inset key="insetFor6xAndEarlier" minX="-20" minY="-20" maxX="40" maxY="40"/>
+                    <state key="normal" backgroundImage="addBtn.jpg"/>
+                    <connections>
+                        <action selector="addFood:" destination="-1" eventType="touchUpInside" id="uWx-I9-pVQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ERX-4m-ESa" firstAttribute="top" secondItem="DAM-s5-8jR" secondAttribute="bottom" id="Hh3-Fj-Aca"/>
+                <constraint firstAttribute="trailing" secondItem="DAM-s5-8jR" secondAttribute="trailing" constant="20" id="KQC-2D-Iwp"/>
+                <constraint firstAttribute="trailing" secondItem="ERX-4m-ESa" secondAttribute="trailing" id="NZK-zS-4fc"/>
+                <constraint firstItem="ERX-4m-ESa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZQU-su-MvF"/>
+                <constraint firstAttribute="bottom" secondItem="ERX-4m-ESa" secondAttribute="bottom" id="f3Q-ZM-eZx"/>
+                <constraint firstItem="DAM-s5-8jR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="j5i-9p-3aa"/>
+            </constraints>
+            <point key="canvasLocation" x="225" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addBtn.jpg" width="605" height="605"/>
+    </resources>
+</document>

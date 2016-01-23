@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC16F2031C4400440066BF8B /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC16F2021C4400440066BF8B /* FoodModel.m */; settings = {ASSET_TAGS = (); }; };
+		DC4CE0601C343F7500C43050 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC4CE05F1C343F7500C43050 /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
+		DC5784D81C4D435E0024D49B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5784D71C4D435E0024D49B /* AssetsLibrary.framework */; };
+		DC65B5541C3F7D5000159A06 /* eat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC65B5531C3F7D5000159A06 /* eat.jpg */; settings = {ASSET_TAGS = (); }; };
+		DC65B55A1C3FD06F00159A06 /* foodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC65B5591C3FD06F00159A06 /* foodList.plist */; settings = {ASSET_TAGS = (); }; };
+		DC65B55C1C4126D400159A06 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC65B55B1C4126D400159A06 /* View.xib */; settings = {ASSET_TAGS = (); }; };
+		DC65B55F1C41668A00159A06 /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65B55E1C41668A00159A06 /* CenterView.m */; settings = {ASSET_TAGS = (); }; };
+		DC6C34AE1C46A2D800D07B01 /* addBtn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6C34AD1C46A2D800D07B01 /* addBtn.jpg */; settings = {ASSET_TAGS = (); }; };
+		DC6C34B11C46ADB200D07B01 /* EditFoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6C34B01C46ADB200D07B01 /* EditFoodView.m */; settings = {ASSET_TAGS = (); }; };
+		DC6C34B31C46AE1D00D07B01 /* EditFoodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6C34B21C46AE1D00D07B01 /* EditFoodView.xib */; settings = {ASSET_TAGS = (); }; };
+		DC7102A91C523AD20046EBAA /* race.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC7102A81C523AD20046EBAA /* race.jpg */; settings = {ASSET_TAGS = (); }; };
+		DC8240E71C427EDE00984139 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8240E61C427EDE00984139 /* search.png */; settings = {ASSET_TAGS = (); }; };
+		DC8240FA1C42967400984139 /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8240F81C42967400984139 /* FoodTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC8240FB1C42967400984139 /* FoodTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8240F91C42967400984139 /* FoodTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		DC8240FF1C42B15600984139 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8240FD1C42B15600984139 /* FoodTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		DC8241001C42B15600984139 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8240FE1C42B15600984139 /* FoodTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		DC8241021C42B25F00984139 /* race.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC8241011C42B25F00984139 /* race.jpg */; settings = {ASSET_TAGS = (); }; };
+		DC96D4FB1C4E970700B4F340 /* NSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DC96D4FA1C4E970700B4F340 /* NSUtil.m */; settings = {ASSET_TAGS = (); }; };
+		DC96D4FE1C4E990D00B4F340 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DC96D4FD1C4E990D00B4F340 /* FileUtil.m */; settings = {ASSET_TAGS = (); }; };
 		DCE8640F1C3404E8009C97FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE8640E1C3404E8009C97FB /* main.m */; };
 		DCE864121C3404E8009C97FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE864111C3404E8009C97FB /* AppDelegate.m */; };
 		DCE864151C3404E8009C97FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE864141C3404E8009C97FB /* ViewController.m */; };
@@ -15,6 +34,7 @@
 		DCE8641D1C3404E8009C97FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE8641B1C3404E8009C97FB /* LaunchScreen.storyboard */; };
 		DCE864281C3404E8009C97FB /* applicationAllViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE864271C3404E8009C97FB /* applicationAllViewTests.m */; };
 		DCE864331C3404E8009C97FB /* applicationAllViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE864321C3404E8009C97FB /* applicationAllViewUITests.m */; };
+		DCEA4D5F1C3ACA3B00D93EE4 /* SelectFoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEA4D5E1C3ACA3B00D93EE4 /* SelectFoodView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC16F2011C4400440066BF8B /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		DC16F2021C4400440066BF8B /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		DC4CE05F1C343F7500C43050 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../../Downloads/1.jpg; sourceTree = "<group>"; };
+		DC5784D71C4D435E0024D49B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DC65B5531C3F7D5000159A06 /* eat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eat.jpg; path = ../../../../eat.jpg; sourceTree = "<group>"; };
+		DC65B5591C3FD06F00159A06 /* foodList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodList.plist; sourceTree = "<group>"; };
+		DC65B55B1C4126D400159A06 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		DC65B55D1C41668A00159A06 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
+		DC65B55E1C41668A00159A06 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
+		DC6C34AD1C46A2D800D07B01 /* addBtn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = addBtn.jpg; path = "../../../../素材/addBtn.jpg"; sourceTree = "<group>"; };
+		DC6C34AF1C46ADB200D07B01 /* EditFoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFoodView.h; sourceTree = "<group>"; };
+		DC6C34B01C46ADB200D07B01 /* EditFoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFoodView.m; sourceTree = "<group>"; };
+		DC6C34B21C46AE1D00D07B01 /* EditFoodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditFoodView.xib; sourceTree = "<group>"; };
+		DC7102A81C523AD20046EBAA /* race.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = race.jpg; path = ../../../../image/race.jpg; sourceTree = "<group>"; };
+		DC8240E61C427EDE00984139 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = ../../../../image/search.png; sourceTree = "<group>"; };
+		DC8240F71C42967400984139 /* FoodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewController.h; sourceTree = "<group>"; };
+		DC8240F81C42967400984139 /* FoodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewController.m; sourceTree = "<group>"; };
+		DC8240F91C42967400984139 /* FoodTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewController.xib; sourceTree = "<group>"; };
+		DC8240FC1C42B15600984139 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		DC8240FD1C42B15600984139 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		DC8240FE1C42B15600984139 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		DC8241011C42B25F00984139 /* race.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = race.jpg; path = ../../../../image/race.jpg; sourceTree = "<group>"; };
+		DC96D4F91C4E970700B4F340 /* NSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSUtil.h; path = ../NSUtil.h; sourceTree = "<group>"; };
+		DC96D4FA1C4E970700B4F340 /* NSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSUtil.m; path = ../NSUtil.m; sourceTree = "<group>"; };
+		DC96D4FC1C4E990D00B4F340 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileUtil.h; path = ../FileUtil.h; sourceTree = "<group>"; };
+		DC96D4FD1C4E990D00B4F340 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileUtil.m; path = ../FileUtil.m; sourceTree = "<group>"; };
 		DCE8640A1C3404E8009C97FB /* applicationAllView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = applicationAllView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE8640E1C3404E8009C97FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCE864101C3404E8009C97FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +97,8 @@
 		DCE8642E1C3404E8009C97FB /* applicationAllViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applicationAllViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE864321C3404E8009C97FB /* applicationAllViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = applicationAllViewUITests.m; sourceTree = "<group>"; };
 		DCE864341C3404E8009C97FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA4D5D1C3ACA3B00D93EE4 /* SelectFoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectFoodView.h; path = ../SelectFoodView.h; sourceTree = "<group>"; };
+		DCEA4D5E1C3ACA3B00D93EE4 /* SelectFoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectFoodView.m; path = ../SelectFoodView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5784D81C4D435E0024D49B /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +127,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC0D91D61C51353E00E1A610 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC8240F91C42967400984139 /* FoodTableViewController.xib */,
+				DC8240F71C42967400984139 /* FoodTableViewController.h */,
+				DC8240F81C42967400984139 /* FoodTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DC0D91D71C51359900E1A610 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				DC6C34AF1C46ADB200D07B01 /* EditFoodView.h */,
+				DC6C34B01C46ADB200D07B01 /* EditFoodView.m */,
+				DC6C34B21C46AE1D00D07B01 /* EditFoodView.xib */,
+				DCEA4D5D1C3ACA3B00D93EE4 /* SelectFoodView.h */,
+				DCEA4D5E1C3ACA3B00D93EE4 /* SelectFoodView.m */,
+				DC8240FC1C42B15600984139 /* FoodTableViewCell.h */,
+				DC8240FD1C42B15600984139 /* FoodTableViewCell.m */,
+				DC8240FE1C42B15600984139 /* FoodTableViewCell.xib */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		DC6230D71C4FE0DE0097F307 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DC96D4FC1C4E990D00B4F340 /* FileUtil.h */,
+				DC96D4FD1C4E990D00B4F340 /* FileUtil.m */,
+				DC96D4F91C4E970700B4F340 /* NSUtil.h */,
+				DC96D4FA1C4E970700B4F340 /* NSUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		DC65B5551C3F7E4D00159A06 /* imageForFood */ = {
+			isa = PBXGroup;
+			children = (
+				DC8241011C42B25F00984139 /* race.jpg */,
+				DC65B5531C3F7D5000159A06 /* eat.jpg */,
+				DC4CE05F1C343F7500C43050 /* 1.jpg */,
+			);
+			name = imageForFood;
+			sourceTree = "<group>";
+		};
+		DC6C34AA1C46A1E700D07B01 /* label */ = {
+			isa = PBXGroup;
+			children = (
+				DC6C34AD1C46A2D800D07B01 /* addBtn.jpg */,
+				DC8240E61C427EDE00984139 /* search.png */,
+				DC7102A81C523AD20046EBAA /* race.jpg */,
+			);
+			name = label;
+			sourceTree = "<group>";
+		};
+		DC7102AA1C52809C0046EBAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC16F2011C4400440066BF8B /* FoodModel.h */,
+				DC16F2021C4400440066BF8B /* FoodModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		DCE864011C3404E8009C97FB = {
 			isa = PBXGroup;
 			children = (
+				DC5784D71C4D435E0024D49B /* AssetsLibrary.framework */,
 				DCE8640C1C3404E8009C97FB /* applicationAllView */,
 				DCE864261C3404E8009C97FB /* applicationAllViewTests */,
 				DCE864311C3404E8009C97FB /* applicationAllViewUITests */,
@@ -101,6 +216,12 @@
 		DCE8640C1C3404E8009C97FB /* applicationAllView */ = {
 			isa = PBXGroup;
 			children = (
+				DC7102AA1C52809C0046EBAA /* Model */,
+				DC0D91D71C51359900E1A610 /* UIView */,
+				DC0D91D61C51353E00E1A610 /* Controller */,
+				DC6230D71C4FE0DE0097F307 /* Util */,
+				DC6C34AA1C46A1E700D07B01 /* label */,
+				DC65B5551C3F7E4D00159A06 /* imageForFood */,
 				DCE864101C3404E8009C97FB /* AppDelegate.h */,
 				DCE864111C3404E8009C97FB /* AppDelegate.m */,
 				DCE864131C3404E8009C97FB /* ViewController.h */,
@@ -110,6 +231,10 @@
 				DCE8641B1C3404E8009C97FB /* LaunchScreen.storyboard */,
 				DCE8641E1C3404E8009C97FB /* Info.plist */,
 				DCE8640D1C3404E8009C97FB /* Supporting Files */,
+				DC65B5591C3FD06F00159A06 /* foodList.plist */,
+				DC65B55B1C4126D400159A06 /* View.xib */,
+				DC65B55D1C41668A00159A06 /* CenterView.h */,
+				DC65B55E1C41668A00159A06 /* CenterView.m */,
 			);
 			path = applicationAllView;
 			sourceTree = "<group>";
@@ -246,7 +371,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7102A91C523AD20046EBAA /* race.jpg in Resources */,
+				DC65B55C1C4126D400159A06 /* View.xib in Resources */,
+				DC65B55A1C3FD06F00159A06 /* foodList.plist in Resources */,
+				DC6C34AE1C46A2D800D07B01 /* addBtn.jpg in Resources */,
 				DCE8641D1C3404E8009C97FB /* LaunchScreen.storyboard in Resources */,
+				DC8240FB1C42967400984139 /* FoodTableViewController.xib in Resources */,
+				DC8240E71C427EDE00984139 /* search.png in Resources */,
+				DC8241021C42B25F00984139 /* race.jpg in Resources */,
+				DC4CE0601C343F7500C43050 /* 1.jpg in Resources */,
+				DC65B5541C3F7D5000159A06 /* eat.jpg in Resources */,
+				DC6C34B31C46AE1D00D07B01 /* EditFoodView.xib in Resources */,
+				DC8241001C42B15600984139 /* FoodTableViewCell.xib in Resources */,
 				DCE8641A1C3404E8009C97FB /* Assets.xcassets in Resources */,
 				DCE864181C3404E8009C97FB /* Main.storyboard in Resources */,
 			);
@@ -274,8 +410,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE864151C3404E8009C97FB /* ViewController.m in Sources */,
+				DC65B55F1C41668A00159A06 /* CenterView.m in Sources */,
+				DC6C34B11C46ADB200D07B01 /* EditFoodView.m in Sources */,
+				DC96D4FE1C4E990D00B4F340 /* FileUtil.m in Sources */,
+				DC96D4FB1C4E970700B4F340 /* NSUtil.m in Sources */,
 				DCE864121C3404E8009C97FB /* AppDelegate.m in Sources */,
+				DCEA4D5F1C3ACA3B00D93EE4 /* SelectFoodView.m in Sources */,
 				DCE8640F1C3404E8009C97FB /* main.m in Sources */,
+				DC8240FA1C42967400984139 /* FoodTableViewController.m in Sources */,
+				DC8240FF1C42B15600984139 /* FoodTableViewCell.m in Sources */,
+				DC16F2031C4400440066BF8B /* FoodModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -499,6 +643,7 @@
 				DCE864391C3404E8009C97FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCE8643A1C3404E8009C97FB /* Build configuration list for PBXNativeTarget "applicationAllViewTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +652,7 @@
 				DCE8643C1C3404E8009C97FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCE8643D1C3404E8009C97FB /* Build configuration list for PBXNativeTarget "applicationAllViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +661,7 @@
 				DCE8643F1C3404E8009C97FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
